@@ -1,0 +1,114 @@
+/* style.css - Modern Design */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+#hero {
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta-button {
+  background: white;
+  color: #3498db;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #ecf0f1;
+}
+
+.project {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project img {
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 12px;
+  border-left: 5px solid #3498db;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  background: #ecf0f1;
+  padding: 15px 20px;
+  border-left: 5px solid #3498db;
+  border-radius: 5px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #3498db;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project img {
+    max-width: 100%;
+  }
+}
